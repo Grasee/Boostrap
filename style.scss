@@ -7,7 +7,7 @@
 
 // 自己的樣式
 .icon-style {
-    background-color: #ddd;
+    background-color: #eee;
     border-radius: 50% !important;
     box-sizing: content-box;
 
@@ -30,6 +30,7 @@
 @media screen and (min-width:1024px) {
     .carousel-inner {
         height: 80vh;
+        
         .carousel-caption {
             bottom: 100px;
         }

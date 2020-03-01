@@ -5,9 +5,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Boostrap web</title>
-  <!-- Boostrap CSS 放置 -->
+  <!-- Boostrap CSS CDN -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <!-- AOS CSS CDN -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
   <!-- 自己的css -->
   <link rel="stylesheet" href="./style.css">
@@ -98,7 +101,7 @@
     <h1 class="text-center py-5">標題</h1>
     <!-- 卡片 -->
     <div class="card-deck">
-      <div class="card border-0 p-2 text-center">
+      <div class="card border-0 p-2 text-center " data-aos="flip-left" data-aos-delay="50">
         <img src="./img/icon1.png" class="card-img-top p-3 icon-style icon-5" alt="...">
         <div class="card-body">
           <h5 class="card-title">Card title</h5>
@@ -107,7 +110,7 @@
           <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
         </div>
       </div>
-      <div class="card border-0 p-2 text-center">
+      <div class="card border-0 p-2 text-center" data-aos="flip-left" data-aos-delay="50">
         <img src="./img/icon2.png" class="card-img-top p-3 icon-style icon-5" alt="...">
         <div class="card-body">
           <h5 class="card-title">Card title</h5>
@@ -115,7 +118,7 @@
           <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
         </div>
       </div>
-      <div class="card border-0 p-2 text-center">
+      <div class="card border-0 p-2 text-center" data-aos="flip-left" data-aos-delay="50">
         <img src="./img/icon3.png" class="card-img-top p-3 icon-style icon-5" alt="...">
         <div class="card-body">
           <h5 class="card-title">Card title</h5>
@@ -130,7 +133,7 @@
   </div>
 
   <!-- 灰色背景區塊 -->
-  <div class="gray bg-light my-5">
+  <div class="gray bg-light my-5 py-5">
     <div class="container">
       <div class="row">
         <div class="col-sm-12 col-md-12 col-lg-3">
@@ -179,13 +182,13 @@
   </div>
 
   <!-- footer -->
-  <div class="container-fluid bg-light py-3 text-center border-top">
+  <div class="container-fluid bg-light py-5 text-center border-top">
     <div>
-      <img src="./img/icon-content2.png" alt="">
-      <img src="./img/icon-content2.png" alt="">
-      <img src="./img/icon-content2.png" alt="">
-      <img src="./img/icon-content2.png" alt="">
-      <img src="./img/icon-content2.png" alt="">
+      <img src="./img/icon-content2.png" class="incon-style icon-4 m-2" alt="">
+      <img src="./img/icon-content2.png" class="incon-style icon-4 m-2" alt="">
+      <img src="./img/icon-content2.png" class="incon-style icon-4 m-2" alt="">
+      <img src="./img/icon-content2.png" class="incon-style icon-4 m-2" alt="">
+      <img src="./img/icon-content2.png" class="incon-style icon-4 m-2" alt="">
     </div>
     <div class="">
       &copy GRACE 2020.
@@ -206,6 +209,13 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
     integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
     crossorigin="anonymous"></script>
+
+<!-- AOS JS  -->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
 </body>
 
 </html>
